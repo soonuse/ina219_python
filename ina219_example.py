@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print('Retry...')
         print('bus voltage %d mV' % ina219.get_bus_voltage_mV())
     print('shunt voltage %.3f mV' % ina219.get_shunt_voltage_mV())
-    print('current %.3f mA' % ina219.get_shunt_voltage_mV())
-    print('power %.3f mW' % ina219.get_shunt_voltage_mV())
+    print('current %.3f mA' % ina219.get_current_mA())
+    print('power %.3f mW' % ina219.get_power_mW())
