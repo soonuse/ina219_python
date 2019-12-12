@@ -124,8 +124,8 @@ class INA219:
         self.power_multiplier_mW = 1.0
         self.cal_value = 8192
         self.calibrate(
-            bus_voltage_range=INA219_CONFIG_BVOLTAGERANGE_32V,
-            gain=INA219_CONFIG_GAIN_8_320MV,
+            bus_voltage_range=INA219_CONFIG_BVOLTAGERANGE_16V,
+            gain=INA219_CONFIG_GAIN_1_40MV,
             bus_adc=INA219_CONFIG_BADCRES_12BIT,
             shunt_adc=INA219_CONFIG_SADCRES_12BIT_1S_532US,
             mode=INA219_CONFIG_MODE_SANDBVOLT_CONTINUOUS,
