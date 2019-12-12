@@ -1,5 +1,5 @@
 """
-IN219 sensor driver based on smbus.
+INA219 sensor driver based on smbus.
 Tested on Jetson Nano
 
 Adafruit gives another python code for INA219, Adafruit_CircuitPython_INA219,
